@@ -1,6 +1,6 @@
 from cipher.caesar import ALPHABET
 class CaesarCipher:
-    def _init (self):
+    def __init__ (self):
         self.alphabet = ALPHABET
     def encrypt_text(self, text: str, key: int) -> str:
         alphabet_len = len(self.alphabet)
